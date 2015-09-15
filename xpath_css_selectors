@@ -1,0 +1,39 @@
+<span id="wsite-title">Traveling Tony's Photography</span>
+
+1. //span[contains(text(),'Traveling')]
+
+<input type="text" placeholder="Search" autocomplete="off" class="wsite-search-input" name="q">
+
+2.	input.wsite-search-input
+
+3. input[name='q']
+
+<input type="text" placeholder="Search" autocomplete="off" class="wsite-search-input" name="q">
+
+4. //input[@class='wsite-search-input']
+
+5. //input[@name='q']
+
+
+<select name="Quantity" class="wsite-field" id="wsite-com-product-option-Quantity">
+												<option value="" selected="selected">--</option>
+													<option value="1">
+														1
+														
+													</option>
+													<option value="2">
+														2
+														
+													</option>
+													<option value="3">
+														3
+														
+													</option>
+										</select>
+										
+
+1. select#wsite-com-product-option-Quantity
+
+2. select.wsite-field
+
+3. //select[@name='Quantity']
