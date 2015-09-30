@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.mytime.scripts.CreateBilling">
+        <methods>
+          <include name="postCondtion"/>
+          <include name="preCondtion"/>
+          <include name="testCreateBilling"/>
+        </methods>
+      </class> <!-- com.mytime.scripts.CreateBilling -->
+      <class name="com.mytime.scripts.InvalidLogin">
+        <methods>
+          <include name="postCondtion"/>
+          <include name="testInvalidLogin"/>
+          <include name="preCondtion"/>
+        </methods>
+      </class> <!-- com.mytime.scripts.InvalidLogin -->
+      <class name="com.mytime.scripts.LoginLogout">
+        <methods>
+          <include name="postCondtion"/>
+          <include name="preCondtion"/>
+          <include name="testLoginLogout"/>
+        </methods>
+      </class> <!-- com.mytime.scripts.LoginLogout -->
+      <class name="com.mytime.scripts.DeleteBilling">
+        <methods>
+          <include name="postCondtion"/>
+          <include name="preCondtion"/>
+          <include name="testDeleteBilling"/>
+        </methods>
+      </class> <!-- com.mytime.scripts.DeleteBilling -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
